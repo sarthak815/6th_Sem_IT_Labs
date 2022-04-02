@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:text="Text Encryptor"
+        android:gravity="center"
+        android:textSize="30sp"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="60dp"/>
+    <EditText
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:hint="Ennter Text"
+        android:layout_gravity="center"
+        android:id="@+id/input_tv"
+        />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="60dp"/>
+    <TextView
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:id="@+id/output_tv"
+        />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="60dp"/>
+    <Button
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:text="Encrypt"
+        android:id="@+id/encrypt_btn"
+        />
+</LinearLayout>
