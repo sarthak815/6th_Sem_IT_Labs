@@ -1,0 +1,27 @@
+{
+    "employees": [
+        {
+        "Name": "Anakin",
+        "Gender": "male", 
+        "Homeworld": "Tatooine",
+        "Born": "41.9BBY",
+        "Jedi": "yes"
+        },
+        {
+        "Name": "Amidala",
+        "Gender": "female", 
+        "Homeworld": "Naboo",
+        "Born": "46BBY",
+        "Jedi": "no"
+        },
+
+        {
+        "Name": "R2-D2",
+        "Gender": "unknown",
+        "Homeworld": "Naboo",
+        "Born": "33BBY",
+        "Jedi": "no"
+        }
+
+    ]
+}

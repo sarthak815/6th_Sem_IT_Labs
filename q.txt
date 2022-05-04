@@ -1,3 +1,0 @@
-1)Given dataset find confidence
-Support = number of times A&B appear/total number of rows
-Confidence = number of times A&B apper/Number of times A appears

@@ -41,6 +41,6 @@ function updateStatus(){
     var text = document.getElementById("inputText").value;
     var converted = convert(text);
     var d1 = document.getElementById("output");
-    d1.insertAdjacentHTML('afterbegin', '<p>' + converted + '</p>');
+    d1.insertAdjacentHTML('afterbegin', converted+'\n');
     console.log(d1.innerHTML);
 }
